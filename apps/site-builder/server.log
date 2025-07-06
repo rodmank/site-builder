@@ -1,0 +1,29 @@
+
+> site-builder@1.0.0 start
+> node src/server.js
+
+{"level":30,"time":1751797439703,"pid":700523,"hostname":"NO-aXHOioiT1gXp","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1751797476009,"pid":700523,"hostname":"NO-aXHOioiT1gXp","reqId":"req-1","req":{"method":"POST","url":"/build","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":36870},"msg":"incoming request"}
+stdout: stdout: 12:24:37 [types] Generated 37ms
+12:24:37 [build] output: "static"
+12:24:37 [build] directory: /home/roko/projects/ai-webgen/apps/site-builder/build-000000000/dist/
+12:24:37 [build] Collecting build info...
+12:24:37 [build] ✓ Completed in 45ms.
+12:24:37 [build] Building static entrypoints...
+12:24:37 [vite] ✓ built in 566ms
+12:24:37 [build] ✓ Completed in 601ms.
+
+ generating static routes 
+12:24:37 ▶ src/pages/index.astro
+12:24:37   └─ /index.html (+5ms)
+12:24:37 ✓ Completed in 15ms.
+
+12:24:37 [build] 1 page(s) built in 673ms
+12:24:37 [build] Complete!
+
+
+stdout: Successfully built site for 000000000 in /home/roko/projects/ai-webgen/apps/site-builder/build-000000000/dist
+
+stderr: stderr: 
+
+{"level":30,"time":1751797477985,"pid":700523,"hostname":"NO-aXHOioiT1gXp","reqId":"req-1","res":{"statusCode":200},"responseTime":1975.6080730110407,"msg":"request completed"}
